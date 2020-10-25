@@ -70,7 +70,7 @@ model = ResNet50(weights="imagenet", include_top=True)
 
 # load the input image from disk, resize it such that it has the
 # has the supplied width, and then grab its dimensions
-orig = cv2.imread('beijaflor.jpeg')
+orig = cv2.imread('data/beijaflor.jpeg')
 orig = imutils.resize(orig, width=width)
 (H, W) = orig.shape[:2]
 
