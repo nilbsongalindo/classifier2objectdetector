@@ -2,3 +2,6 @@
 
 Implementation of pyimagesearch's tutorial avaliable on: https://www.pyimagesearch.com/2020/06/22/turning-any-cnn-image-classifier-into-an-object-detector-with-keras-tensorflow-and-opencv/
 
+Photo that will be submited: ![beija flor](data/beijaflor.jpeg)
+
+Result: ![result](data/result.png)
